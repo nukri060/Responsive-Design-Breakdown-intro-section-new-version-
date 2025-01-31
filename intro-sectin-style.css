@@ -1,0 +1,40 @@
+.content-wrapper{
+    z-index: 1;
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    gap: 140px;
+}
+
+.caption-content{
+    width: 540px;
+    padding: 0 16px;
+    margin-top: 98px;
+    margin-bottom: 142px;
+    max-width: 50%;
+}
+
+.caption-content h2, .caption-content p, .caption-content div {
+    margin-bottom: 32px;
+}
+
+.caption-content h2 {
+    /* width: 640px; */
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 97px;
+    color: #3A3A3A;
+}
+
+.caption-content p {
+    font-weight: 700;
+    line-height: 28px;
+    color: #425466;
+}
+
+.caption-content .cta-buttons a:first-child {
+    background-color: #0A2540;
+    color: white;
+    border-radius: 15px;
+    padding: 6px 16px;
+}
