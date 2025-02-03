@@ -1,0 +1,11 @@
+.brands {
+    width: 1080px;
+    height: auto; 
+    margin: auto;
+    --gridRowGap: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-items: center;
+    align-items: center;
+    row-gap: var(--gridRowGap);
+}
