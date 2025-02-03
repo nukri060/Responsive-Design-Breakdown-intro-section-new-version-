@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/intro-section-style.css">
+    <link rel="stylesheet" href="css/dashboard-container.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/feature-section.css">
+    <link rel="stylesheet" href="css/enterprise-style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="intro-section">
+        <header class="main-header">
+            <div class="nav-container">
+                <h1 class="logo">
+                    <img src="images/stripes-logo.svg" alt="Stripe's Logo">
+                </h1>
+                <nav class="navigation-menu">
+                    <ul>
+                        <li>Products</li>
+                        <li>Solutions</li>
+                        <li>Developers</li>
+                        <li>Resources</li>
+                        <li>Pricing</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="">Contact sales</a>
+                <a href=""> Sign in</a>
+            </div>
+        </header>
+
+        <canvas id="gradient-canvas" style="width:100vw"></canvas>
+        <div class="content-wrapper">
+            <article class="caption-content">
+                <h2>Financial infrastructure for the internet</h2>
+                <p>Millions of companies of all sizes use Stripe online and in person to accept payments, send payouts,
+                    automate financial processes, and ultimately grow revenue.</p>
+                <div class="cta-buttons">
+                    <a href="">Contact sales</a>
+                    <a href=""> Sign in</a>
+                </div>
+            </article>
+
+            <div class="dashboard-container">
+                <div class="mobile-phone">
+                    <div class="phone-screen">
+                        <form action="payment-form">
+                            <div class="top-part">
+                                <img src="images/abstraction-magazine.svg" alt="Abstraction Magazine"
+                                    class="abstraction-magazine">
+                                <h4>Abstraction Magazine</h4>
+                                <p>$19 per month</p>
+                                <button class="apple-pay">
+                                    <img src="images/apple-pay.svg" alt="apple-pay">
+                                </button>
+                                <p>Or pay with card</p>
+                            </div>
+
+                            <div class="bottom-part">
+                                <label for="email-input">Email</label>
+                                <input type="text" class="email-input">
+
+                                <label for="card-input">Card information</label>
+                                <input type="text" placeholder="Number" class="card-numbers-input">
+                                <div class="years-cvc-wrapper">
+                                    <input type="text" placeholder="MM / YY">
+                                    <input type="text" placeholder="CVC">
+                                </div>
+
+                                <label for="location-input">Country or region</label>
+                                <div class="zip-input-container">
+                                    <select name="" class="location-input">
+                                        <option value="GEO"></option>
+                                        <option value="UK">United Kingdom</option>
+                                        <option value="US" selected>United States</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="IN">India</option>
+                                        <option value="FR">France</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="JP">Japan</option>
+                                    </select>
+                                    <input type="text" placeholder="ZIP">
+                                </div>
+
+                                <button class="apple-pay">
+                                    <img src="images/apple-pay.svg" alt="apple-pay">
+                                </button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="chart-panel">
+                    <div class="company-part">
+                        <h3>Rocket Rides</h3>
+                    </div>
+                    <div class="graphs-part">
+                        <input type="text" placeholder="Search">
+
+                        <div class="graphs">
+                            <div class="main-graph">
+                                <h3>Today</h3>
+
+                                <div class="categories">
+                                    <div class="net-volume-part">
+                                        <p class="chart-title">Net volume</p>
+                                        <p class="chart-value">$3,528,198.72</p>
+                                        <p>2:00 PM</p>
+                                    </div>
+
+                                    <div class="time-part">
+                                        <p class="chart-title">Yesterday</p>
+                                        <p class="chart-value">$2,931,556.34</p>
+                                    </div>
+                                </div>
+
+                                <img src="images/top-graph.svg" alt="">
+                                <div class="times">
+                                    <div class="net-volume-part">
+                                        <p>2:00 PM</p>
+                                    </div>
+
+                                    <div class="time-part">
+                                        <p>Now, 2:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-graphs">
+                                <div class="graph-container">
+                                    <p class="chart-title">Net volume from sales <span>+32.8%</span></p>
+                                    <p class="chart-value">$39,274.29 <span>$29,573.54</span></p>
+                                    <img src="images/sales-volume.svg" alt="">
+                                    <div class="times">
+                                        <div class="net-volume-part">
+                                            <p>20 Apr</p>
+                                        </div>
+
+                                        <div class="time-part">
+                                            <p>Today</p>
+                                        </div>
+                                    </div>
+                                    <p>Updated today 7:50 AM</p>
+                                </div>
+
+                                <div class="graph-container">
+                                    <p class="chart-title">New customers <span>+32.8%</span></p>
+                                    <p class="chart-value">$37 <span>27</span></p>
+                                    <img src="images/customures-amount.svg" alt="">
+                                    <div class="times">
+                                        <div class="net-volume-part">
+                                            <p>20 Apr</p>
+                                        </div>
+
+                                        <div class="time-part">
+                                            <p>Today</p>
+                                        </div>
+                                    </div>
+                                    <p>Updated today 7:50 AM</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="companies-logos">
+            <div class="brands">
+                <img src="images/brands/amazon.svg" alt="">
+                <img src="images/brands/salesforce.svg" alt="">
+                <img src="images/brands/google.svg" alt="">
+                <img src="images/brands/urbn.svg" alt="">
+                <img src="images/brands/shopify.svg" alt="">
+                <img src="images/brands/whatsapp.svg" alt="">
+                <img src="images/brands/bmw-company.svg" alt="">
+                <img src="images/brands/marriot-company.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="enterprise-section">
+        <div class="enterprise-wrapper">
+            <article class="enterprise-caption">
+                <h4>Enterprise reinvention</h4>
+                <h2>Bring agility to your enterprise</h2>
+                <p>You can use Stripe not only to accept payments but also to quickly support new markets,
+                    upgrade existing systems and tools, go direct-to-consumer, and engage customers with
+                    subscriptions and marketplaces. Get expert integration guidance from our professional services team  and certified partners so you can see value with Stripe faster.</p>
+                <div class="cta-buttons">
+                    <a href="">Contact sales</a>
+                </div>
+            </article>
+            <div class="enterprise-content">
+                <div class="caption-container">
+                    <article>
+                        <p>5+</p>
+                        <p>Amazon businesses on Stripe including Prime, Audible, and Amazon Pay.</p>
+                    </article>
+                    <article>
+                        <p>50+</p>
+                        <p>Payment methods available on Stripe</p>
+                    </article>
+                    <article>
+                        <p>Products used</p>
+                        <p class="payment-paragraph"><span><img src="images/payments-icon.svg" alt=""></span>Payments</p>
+                        <p class="connect-paragraph"><span><img src="images/connect-icon.svg" alt=""></span>Connect</p>
+                    </article>
+                </div>
+                <div class="card-container">
+                    <div class="top-part-cont">
+                        <img src="images/amazon-text.svg" alt="">
+                        <img src="images/doc-icon.svg" alt="">
+                    </div>
+
+                    <p>See how Amazon simplified cross-border payments with Stripe</p>
+                </div>
+            </div>
+            <ul class="brands-footer">
+                <li class="bmw-item"><img src="images/bmw-footer-logo.svg" alt=""></li>
+                <li class="amazon-item"><img src="images/amazon-footer-logo.svg" alt=""></li>
+                <li class="maersk-item"><img src="images/maersk-footerr-logo.svg" alt=""></li>
+                <li class="twilo-item"><img src="images/twilo-footer-logo.svg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="feature-wrapper">
+            <article class="stripe-payments">
+                <h4>Ready to get started?</h4>
+                <p>Explore Stripe Payments, or create an account
+                    instantly and start accepting payments. You can
+                    also contact us to design a custom package for
+                    your business.</p>
+                <div class="cta-buttons">
+                    <a href="">Start now</a>
+                    <a href="">Contact sales</a>
+                </div>
+
+
+            </article>
+
+            <article class="pricing-details">
+                <img src="images/pricing-details.svg" alt="Pricing details icon">
+                <h4>Always know what you pay</h4>
+                <p>Integrated per-transaction pricing with no hidden fees.</p>
+                <div class="cta-buttons">
+                    <a href="">Contact sales</a>
+                </div>
+            </article>
+
+            <article class="api-reference">
+                <img src="images/api-reference.png" alt="Api reference logo">
+                <h4>Start your integration</h4>
+                <p>Get up and running with Stripe
+                    in as little as 10 minutes.</p>
+                <div class="cta-buttons">
+                    <a href="">API reference  </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script src="Gradient.js"></script>
+    <script>
+        var gradient = new Gradient()
+        gradient.initGradient('#gradient-canvas');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+.enterprise-wrapper{
+    width: 1080px;
+    /* display: flex; */
+    margin: auto;
+    padding: 128px 32px;
+}
+
+.enterprise-caption {
+    margin-bottom: 64px;
+    width: 810px;
+}
+.enterprise-caption  h4{
+    font-weight: 500;
+    color: #635BFF;
+    margin-bottom: 24px;
+}
+
+.enterprise-caption h2 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #0A2540;
+    margin-bottom: 24px;
+}
+
+.enterprise-caption p {
+    margin-bottom: 24px;
+    font-weight: 500;
+    color: #425466;
+}
+
+.enterprise-caption .cta-buttons a {
+    background-color: #635BFF;
+    padding: 6px 16px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.enterprise-content {
+    display: flex;
+    gap: 32px;
+}
+
+.caption-container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    gap: 48px;
+}
+
+.caption-container article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.caption-container p {
+    padding-left: 16px;
+}
+
+.caption-container article:first-child p:nth-child(2), .caption-container article:nth-child(2) p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #425466;
+}
+
+.caption-container article:last-child p:nth-child(2) span, .caption-container article:last-child p:nth-child(3) span{
+    margin-right: 14px;
+}
+
+.caption-container article:last-child p:first-child {
+    margin-bottom: 24px;
+}
+.caption-container article p:first-child {
+    border-left: 1px solid #635BFF;
+}
+.caption-container article:nth-child(1) p:first-child, .caption-container article:nth-child(2) p:first-child{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-container {
+    background-color: orange;  /* Default background color (orange) */
+    width: 100%;  /* Make it responsive */
+    max-width: 810px;  /* Limit the max width */
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for depth */
+
+}
+
+.card-container {
+    background-image: url("https://images.stripeassets.com/fzn2n1nzq965/4jq1Wguyus7CA7yc2kxMgn/cf7b01aadf305daef40ac8acab654510/home-enterprise-amazon.png?q=80&fm=webp&w=1836");
+    background-size: cover;  /* Ensures the image covers the entire container */
+    background-position: center center;  /* Centers the image */
+}
+
+.card-container {
+    width: 100%;
+    background-color: orange;
+    padding: 24px;
+}
+
+.card-container .top-part-cont {
+    display: flex;
+    align-items: center;
+    gap: 450px;
+    margin-bottom: 250px;
+}
+
+.top-part-cont img:first-child {
+    padding-top: 16px;
+}
+
+.card-container p {
+    font-size: 24px;
+    color: white;
+}
+
+.brands-footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: stretch;
+    margin-top: 40px;
+}
+
+.brands-footer li {
+    list-style: none;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.bmw-item {
+    border-top: 1px solid rgb(0, 102, 177);
+}
+
+.amazon-item {
+    border-top: 1px solid rgb(239, 168, 46);
+}
+
+.maersk-item {
+    border-top: 1px solid rgb(66, 176, 213);
+}
+
+.twilo-item {
+    border-top: 1px solid rgb(197, 70, 71);
+}
+

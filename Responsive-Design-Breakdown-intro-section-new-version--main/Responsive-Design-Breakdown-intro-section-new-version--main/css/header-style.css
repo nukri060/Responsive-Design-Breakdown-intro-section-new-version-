@@ -1,0 +1,56 @@
+/* Header styles */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin: auto;
+    color: white;
+    position: sticky;
+    padding: 24px 16px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 16px;
+}
+
+.navigation-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-menu ul li {
+    padding: 8px 20px;
+}
+
+/* CTA buttons styles */
+
+.cta-buttons {
+    padding-top: 8px;
+    align-content: center;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.cta-buttons a:first-child {
+    margin-right: 20px;
+}
+
+header .cta-buttons a:last-child{
+    background-color: white;
+    color: orange;
+    padding: 6px 16px;
+    border-radius: 16px;
+}
+
+.logo img {
+    padding-top: 8px;
+}
